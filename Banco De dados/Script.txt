@@ -1,0 +1,47 @@
+drop database Clientes
+
+
+
+create database cliente
+
+s
+
+use clientes
+
+create table cadastro(
+
+nome varchar(50),
+
+email varchar (50),
+
+telefone int (15),
+
+estadocivil int(5),
+
+sexo int(3),
+
+campus varchar (30),
+
+salario int (6),
+
+rua varchar (30),
+
+cidade varchar (30),
+
+estado varchar (2),
+
+observacao varchar( 250),
+
+setor varchar (30),
+codigo int (100) PRIMARY KEY)
+
+
+
+SELECT * FROM Cadastro
+
+
+
+
+INSERT INTO Cadastro(nome,email, telefone,estadocivil ,sexo ,campus ,salario ,rua ,cidade ,estado ,observacao, codigo)
+
+values('Gabriel' , 'teste.com.br', 0, 0, 0, 'itaquera', 1000, 'sao theodoro', 'sao paulo ', 'sp', '', 'dptmento de TI', 1);
